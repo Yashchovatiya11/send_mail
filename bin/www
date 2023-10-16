@@ -10,7 +10,7 @@ var http = require('http');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/email_send')
+mongoose.connect('mongodb+srv://welcome80808:yash8200@yash.s9difo7.mongodb.net/email_send')
   .then(() => console.log('Connected!'));
 
 /**
